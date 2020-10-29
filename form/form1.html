@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Form Pendaftaran</title>
+    <style>
+        #card {
+        height: 740px;
+        width:  800px;
+        margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <header style="color: mediumturquoise; font-family: sans-serif;">
+            <h1>FORM PENDAFTARAN SISWA</h1>
+        </header>
+        <br>
+    <form action="create_acount" method="POST">
+        <label>NOMOR PENDAFTARAN :</label>
+        <Input type="text" name="date" value="" required>
+        <br><br>
+                <label>TANGGAL :</label> 
+                &emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;
+                <input type="date" name="date" value="" style="width: 170px;">
+    </form>
+            <br>
+    <form>
+        <fieldset>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Tempat Lahir:</label>
+            <input type="text" name="Tempat" placeholder="Tempat...">
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="Tanggal Lahir" />
+        </p>
+        <p>
+            <label>Asal sekolah:</label>
+            <input type="text" name="Asal sekolah" placeholder="Asal sekolah...">
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="L" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="P" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <textarea></textarea>
+        </p>
+        <p>
+            <label>No Telp:</label>
+            <input type="text" name="No Telp" placeholder="No Telp..." />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="Email" value="" required>
+        </p>    
+        </fieldset>
+    </form> 
+    <h2 style="font-family: 'Times New Roman', Times, serif;">DATA ORANG TUA</h2>
+    <form>
+        <P>
+            <label>Nama Ayah/Ibu :</label>
+            <input type="text" name="Nama Ortu"/>
+        </P>
+            <p>
+                <label>Tempat Lahir&emsp;:</label>
+                <input type="text" name="Tempat Lahir"/>
+            </p>
+        <p>
+            <label>Tanggal Lahir&nbsp;&nbsp; :</label>
+            <input type="date" name="Tanggal Lahir" style="width: 170px;"> 
+        </p>
+            <p>
+                <label>Agama&emsp;&emsp;&emsp;&nbsp;&nbsp;:</label>
+                <select name="Agama">
+					<option value="islam">islam</option>
+                    <option value="katolik">katolik</option>
+                    <option value="hindu">hindu</option>
+                    <option value="budha">budha</option>
+                    <option value="kristen">kristen</option>
+                </select>
+            </p>
+        <p>
+            <label>Pendidikan&emsp;&nbsp;&nbsp; :</label>
+            <select name="Pendidikan">
+                <option value="S3">S3</option>
+                <option value="S2">S2</option>
+                <option value="S1">S1</option>
+                <option value="D3">D3</option>
+                <option value="D2">D2</option>
+                <option value="D1">D1</option>
+                <option value="SMA/SMK/MA">SMA/SMK/MA</option>
+                <option value="SMP">SMP</option>
+                <option value="SD">SD</option>
+            </select>
+        </p>
+            <p>
+                <label>Pekerjaan&emsp;&emsp;&nbsp;:</label>
+            <select name="Pendidikan">
+                <option value="Karyawan">Karyawan</option>
+                <option value="Wiraswasta">Wiraswasta</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
+            </p>
+        <p>
+            <label>Tempat Tinggal :</label>
+            <textarea></textarea>
+        </p>
+        
+        <p>
+        <label>
+            NISN &emsp;&emsp;&emsp;&emsp;: <input type="file">
+        </label>
+        </p>
+            <P>
+                <label>
+            Kartu Keluarga : <input type="file">
+                </label>
+            </P>
+         <p>      
+        <label>
+            Akte Kelahiran : <input type="file">
+        </label>
+        </p> 
+            <p>   
+                <label>
+            Ijazah Terakhir : <input type="file">
+                </label>
+            </p>
+            <p>
+                <label>
+            SKHUN &emsp;&emsp;&nbsp;&nbsp;: <input type="file">
+                </label>
+            </p>
+        <br>
+        <input type="submit" value="DAFTAR"> <input type="reset" value="BATAL"> 
+    </form>
+
+    </div>
+</body>
+</html>
