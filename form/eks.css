@@ -1,0 +1,11 @@
+#card {
+    height: 740px;
+    width:  800px;
+    margin: 0 auto;
+}
+#atas {
+    color: mediumturquoise;
+    font-family: sans-serif;
+}
+#tengah{
+    font-family: 'Times New Roman', Times, serif;
